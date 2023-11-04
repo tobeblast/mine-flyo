@@ -1,0 +1,471 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#body{
+    width: 100%;
+    height: auto;
+    background-color: hsl(215, 26%, 22%);
+    padding: 0px 60px;
+}
+
+#body .logo img {
+    width: 100%;
+}
+
+#body .logo img:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+#body .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+#body .nav .links {
+    display: flex;
+    list-style: none;
+    color: white;
+    gap: 20px;
+}
+
+#body .nav .links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#body .nav .links a:hover {
+    color: greenyellow;
+    text-decoration: underline
+}
+
+#body main{
+    padding-bottom: 30px;
+}
+
+#body .main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#body .main-container .main-text1{
+    width: 30%;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#body .main-container .main-text2{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    width: 32%;
+    line-height: 20px;
+}
+
+#body .main-container .btn button{
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: hsl(176, 68%, 64%);
+    margin-top: 20px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+#body .main-container .btn button:hover{
+    background-color:blue ;
+    color: pink;
+}
+
+#body .four-picture .first-two{
+    display: flex;
+    margin: 50px auto;
+    width: 70%;
+    gap: 50px;
+}
+
+#body .four-picture .first-two .p-head {
+    color: white;
+    margin-top: 3%;
+    font-weight: bold;
+    margin-left: 8%;
+}
+
+#body .four-picture .first-two p {
+    color: white;
+    width: 85%;
+    margin-left: 8%;
+}
+
+#body .four-picture .first-two .access{
+    text-align: center;
+}
+
+#body .four-picture .first-two .security{
+    text-align: center;
+}
+
+#body .four-picture .second-two{
+    display: flex;
+    margin: 50px auto;
+    width: 70%;
+    gap: 50px;
+}
+
+#body .four-picture .second-two .p-head {
+    color: white;
+    margin-top: 3%;
+    font-weight: bold;
+    margin-left: 8%;
+}
+
+#body .four-picture .second-two p {
+    color: white;
+    width: 85%;
+    margin-left: 8%;
+}
+
+#body .four-picture .second-two .collaboration{
+    text-align: center;
+}
+
+#body .four-picture .second-two .any-file{
+    text-align: center;
+}
+
+#body .stay-productive{
+    display: flex;
+    margin: 5% 5%;
+    gap: 30px;
+}
+
+#body .stay-productive .stay-text{
+    padding: 3%;
+}
+
+#body .stay-productive .stay-text h1{
+    color: white;
+    width: 70%;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 5%;
+}
+
+#body .stay-productive .stay-text .stay-p{
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 5%;
+}
+
+#body .stay-productive .stay-text .stay-p2{
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 5%;
+}
+
+#body .stay-productive .stay-text .see{
+    display: flex;
+    gap: 20px;
+}
+
+#body .stay-productive .stay-text a{
+    text-decoration: none;
+    color: aqua;
+}
+
+#body .stay-productive .stay-text a:hover {
+    color: blue;
+    cursor: progress;
+}
+
+#body .stay-productive .stay-text img {
+    width: 100%;
+    margin-top: 5%;
+}
+
+#body .squares{
+    display: flex;
+    gap: 45px;
+    margin-bottom: 20%;
+    position: relative;
+}
+
+#body .squares .quote{
+    top: -40px;
+    left: -8px;
+    position: absolute;
+}
+
+#body .squares .satish{
+    background-color: hsl(218, 28%, 13%); 
+    width: 30%;
+    color: white;
+    position: relative;
+    top: 98%;
+    padding: 30px;
+}
+
+#body .squares .satish p{
+    width: 96%;
+    font-size: 16px;
+    margin-bottom: 10%;
+}
+
+#body .squares .satish .down-item{
+    display:flex;
+}
+
+#body .squares .satish .down-item img{
+    border-radius: 90px;
+    width: 40%;
+}
+
+#body .squares .satish .down-item .text{
+    width: 60%;
+    margin-left: -20%;
+    margin-top: 2%;
+}
+
+#body .squares .bruce {
+    color: white;
+    width: 30%;
+    padding: 30px;
+    background-color: hsl(218, 28%, 13%);
+}
+
+#body .squares .bruce p{
+    font-size: 16px;
+    width: 96%;
+    margin-bottom: 10%;
+}
+
+#body .squares .bruce .down-item{
+    display: flex;
+}
+
+#body .squares .bruce .down-item img{
+    border-radius: 90px;
+    width: 40%;
+}
+
+#body .squares .bruce .down-item .text{
+    width: 60%;
+    margin-left: -20%;
+    margin-top: 2%;
+}
+
+#body .squares .iva{
+    color: white;
+    width: 30%;
+    padding:30px;
+    background-color: hsl(218, 28%, 13%);
+}
+
+#body .squares .iva p {
+    font-size: 16px;
+    width: 96%;
+    margin-bottom: 10%;
+}
+
+#body .squares .iva .down-item {
+    display: flex;
+}
+
+#body .squares .iva .down-item img {
+    border-radius: 90px;
+    width: 40%;
+}
+
+#body .squares .iva .down-item .text {
+    width: 60%;
+    margin-left: -20%;
+    margin-top: 2%;
+}
+
+#body .rectangle-can {
+    position: absolute;
+    margin: 0 auto;
+    left: 55%;
+    right: 50%;
+    top: 353%;
+    transform: translate(-50%, -50%);
+    padding: 40px 0;
+    width: 70%;
+    background-color: hsl(217, 74%, 15%);
+}
+
+#body .rectangle-can .rectangle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#body .rectangle-can .rectangle h2 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 3%;
+}
+
+#body .rectangle-can .rectangle p {
+    color: white;
+    font-size: 15px;
+    width: 70%;
+    margin-bottom: 3%;
+}
+
+#body .rectangle-can .rectangle .btn {
+    display: flex;
+    gap: 40px;
+}
+
+#body .rectangle-can .rectangle .btn .button1 input {
+    color: black;
+    background-color: white;
+    border: none;
+    outline: 0;
+    padding: 15px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+#body .rectangle-can .rectangle .btn .button2 button {
+    color: white;
+    cursor: pointer;
+    padding: 15px 40px;
+    background-color: skyblue;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.footer {
+    height: auto;
+    background-color: hsl(218, 28%, 13%);
+    padding: 100px 60px;
+}
+
+.footer .logo2 img {
+    margin-top: 5%;
+}
+
+.footer .last-lines {
+    display: flex;
+    gap: 10%;
+    align-items: center;
+}
+
+.footer .last-lines .location {
+    display: flex;
+    width: 25%;
+}
+
+.footer .last-lines .location-text {
+    display: flex;
+    margin-top: 10%;
+    gap: 20px;
+}
+
+.footer .last-lines .location-text img {
+    width: 10px;
+    height: 25%;
+    margin-top: 2px;
+}
+
+.footer .last-lines .location-text p {
+    color: white;
+    width: 90%;
+}
+
+.footer .last-lines .call-mail {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-top: 25px;
+}
+
+.footer .last-lines .call-mail .call {
+    display: flex;
+    gap: 20px;
+}
+
+.footer .last-lines .call-mail .call p {
+    color: white;
+}
+
+.footer .last-lines .call-mail .mail {
+    display: flex;
+    gap: 20px;
+}
+
+.footer .last-lines .call-mail .mail p {
+    color: white;
+}
+
+.footer .last-lines .about-us {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    color: white;
+    margin-top: 53px;
+}
+
+.footer .last-lines .contact {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    row-gap: 10px;
+    margin-top: 25px;
+}
+
+.footer .last-lines .last-image {
+    display: flex;
+    gap: 10px;
+}
+
+
+@media (max-width:500px){
+    #body{
+        padding: 0px 30px;
+    }
+
+    #body .nav .links {
+        display: none;
+    }
+
+    #body .main-container{
+        width: 100%;
+    }
+
+    #body .main-container .main-text1 {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    #body .main-container .main-text2 {
+        width: 75%;
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
