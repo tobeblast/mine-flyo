@@ -65,7 +65,7 @@
 
 #body .main-container .main-text2{
     color: white;
-    font-size: 15px;
+    /* font-size: 15px; */
     text-align: center;
     width: 32%;
     line-height: 20px;
@@ -316,7 +316,7 @@
 
 #body .rectangle-can .rectangle h2 {
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 3%;
 }
 
@@ -442,6 +442,10 @@
         padding: 0px 30px;
     }
 
+    #body .nav .logo img{
+        width: 40%;
+    }
+
     #body .nav .links {
         display: none;
     }
@@ -456,9 +460,133 @@
     }
 
     #body .main-container .main-text2 {
-        width: 75%;
-        font-size: 10px;
+        width: 100%;
     }
+
+    #body .main-container .btn{
+        width: 100%;
+        text-align: center;
+    }
+
+    #body .main-container .btn button {
+        color: rgb(172, 71, 71);
+        background-color: greenyellow;
+    }
+
+    #body .main-container .btn button:hover {     
+        color: brown;
+        background-color: bisque;     
+    }
+
+    #body .four-picture .first-two {
+       flex-direction:column;
+       width: 100%;
+       row-gap: 50px;
+       margin-top: 20%;
+    }
+
+    #body .four-picture .second-two {
+        flex-direction: column;
+        width: 100%;
+        row-gap: 50px;
+    }
+
+    #body .stay-productive {
+        flex-direction: column;
+        margin: 30% 3%;
+        row-gap: 35px;
+    }
+
+    #body .stay-productive .stay-text h1 {
+       width: 100%;
+       font-size: 26px;
+       margin-bottom: 5px;
+    }
+
+    #body .squares {
+       flex-direction: column;
+       row-gap: 45px;
+    }
+
+    #body .squares .satish {
+       width: 100%;      
+    }
+
+    #body .squares .satish .down-item {
+       gap: 20px;
+    }
+
+    #body .squares .bruce {
+       width: 100%;            
+    }
+
+    #body .squares .bruce .down-item {
+        gap: 20px;    
+    }
+
+    #body .squares .iva {
+       width: 100%;
+       margin-bottom: 20%;
+    }
+
+    #body .squares .iva .down-item {
+       gap: 20px;
+    }
+
+    #body .rectangle-can {
+        top: 590%;    
+        right: 73% ;              
+        padding: 15px;
+        width: 90%;
+        margin-left: -5%;
+        border-radius: 5px;
+        margin-top: 10%;
+    }
+
+    #body .rectangle-can .rectangle h2{
+        font-size: 25px;
+    }
+
+   
+    #body .rectangle-can .rectangle p {
+        font-size: 20px;
+        width: 80%;
+        margin-bottom: 3%;
+    }
+
+    #body .rectangle-can .rectangle .btn {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    #body .rectangle-can .rectangle .btn .button1 input {     
+        padding: 15px;           
+    }
+
+    .footer .logo2 img{
+        margin-top: 35%;
+    }
+
+    .footer .last-lines {
+       flex-direction: column;
+       row-gap: 25%;
+       align-items: start;
+       margin-top: 10%;
+    }
+
+    .footer .last-lines .location {
+       width: 100%;
+    }
+
+    .footer .last-lines .location .location-text p{
+        width: 60%;
+    }
+
+
+
+
+
+
 
 }
 
