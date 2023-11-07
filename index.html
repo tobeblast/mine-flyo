@@ -5,26 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flyo</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
   </head>
   <body>
     <section>
       <section id="body">
         <header>
-          <nav class="nav">
-            <div class="logo">
-              <img src="./image/logo.svg" alt="flyo logo" />
-            </div>
-            <div class="links">
-              <li><a href="/boss solution/index.html">Features</a></li>
-              <li><a href="/boss solution/index.html">Team</a></li>
-              <li><a href="/boss solution/index.html">Sign In</a></li>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand ml-5" style="color: white" href="#"
+                ><img src="./image/logo.svg" alt="flyo logo"
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mt-sm-5">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      style="color: white"
+                      aria-current="page"
+                      href="#"
+                      >Features
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: white" href="#">Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: white" href="#"
+                      >Sign In</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
           </nav>
         </header>
 
         <main>
           <div class="main-container">
-            <div>
+            <div class="illustration">
               <img
                 src="./image/illustration-intro.png"
                 alt="illustration"
