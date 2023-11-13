@@ -5,7 +5,7 @@
 }
 
 p {
-    margin-bottom: 0;
+    margin-bottom: 0!important;
 }
 
 #body{
@@ -226,11 +226,12 @@ p {
 #body .squares .satish p{
     width: 96%;
     font-size: 16px;
-    margin-bottom: 10%;
+    padding-bottom: 20px;
 }
 
 #body .squares .satish .down-item{
     display:flex;
+    align-items: center;
 }
 
 #body .squares .satish .down-item img{
@@ -240,8 +241,8 @@ p {
 
 #body .squares .satish .down-item .text{
     width: 60%;
-    margin-left: -20%;
-    margin-top: 2%;
+    margin-left: -30px;
+    margin-top: 20px;
 }
 
 #body .squares .bruce {
@@ -254,11 +255,13 @@ p {
 #body .squares .bruce p{
     font-size: 16px;
     width: 96%;
-    margin-bottom: 10%;
+    padding-bottom: 20px;
+
 }
 
 #body .squares .bruce .down-item{
     display: flex;
+    align-items: center;
 }
 
 #body .squares .bruce .down-item img{
@@ -268,8 +271,8 @@ p {
 
 #body .squares .bruce .down-item .text{
     width: 60%;
-    margin-left: -20%;
-    margin-top: 2%;
+    margin-left: -30px;
+    margin-top: 20px;
 }
 
 #body .squares .iva{
@@ -282,11 +285,12 @@ p {
 #body .squares .iva p {
     font-size: 16px;
     width: 96%;
-    margin-bottom: 10%;
+    padding-bottom: 20px;
 }
 
 #body .squares .iva .down-item {
     display: flex;
+    align-items: center;
 }
 
 #body .squares .iva .down-item img {
@@ -296,8 +300,8 @@ p {
 
 #body .squares .iva .down-item .text {
     width: 60%;
-    margin-left: -20%;
-    margin-top: 2%;
+    margin-left: -30px;
+    margin-top: 20px;
 }
 
 .rectangle{
@@ -517,27 +521,19 @@ p {
        width: 100%;      
     }
 
-    #body .squares .satish .down-item {
-       gap: 20px;
-    }
-
+   
     #body .squares .bruce {
        width: 100%;            
     }
 
-    #body .squares .bruce .down-item {
-        gap: 20px;    
-    }
+ 
 
     #body .squares .iva {
        width: 100%;
        margin-bottom: 20%;
     }
 
-    #body .squares .iva .down-item {
-       gap: 20px;
-    }
-
+  
      .rectangle{
         top: 0;    
               
